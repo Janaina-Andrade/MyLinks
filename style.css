@@ -12,7 +12,9 @@ body{
 img{
     width: 320px;
     height: 320px;
-    border-radius: 20px;
+    border-radius: 50%;
+    border: #a040a0 solid 3px;
+    padding: 5px;
 }
 
 h1{
@@ -33,8 +35,13 @@ li{
     margin-bottom: 18px;
     list-style: none;
 }
+
+a:hover{
+    background-color:#a98ff0;
+    color: black;
+}
 a{
-     background-color: limegreen;
+     background-color: #a040a0;
      color: white;
      padding: 15px;
      text-decoration: none;
